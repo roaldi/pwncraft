@@ -1,18 +1,10 @@
 # Dockercraft
 
-![Dockercraft](https://github.com/docker/dockercraft/raw/master/docs/img/logo.png?raw=true)
+![PWNcraft](https://github.com/docker/dockercraft/raw/master/docs/img/logo.png?raw=true)
 
-A simple Minecraft Docker client, to visualize and manage Docker containers.
+A simple Minecraft Docker client, to obfuscate C2 traffic. 
 
-![Dockercraft](https://github.com/docker/dockercraft/raw/master/docs/img/dockercraft.gif?raw=true)
-
-[YouTube video](http://www.youtube.com/watch?v=eZDlJgJf55o)
-
-> WARNING: Please use Dockercraft on your local machine only.
-> It currently doesn't support authentication.
-> Every player should be considered a root user! 
-
-## How to run Dockercraft
+## How to run PWNcraft
 
 1. **Install Minecraft: [minecraft.net](https://minecraft.net)**
 
@@ -20,15 +12,6 @@ A simple Minecraft Docker client, to visualize and manage Docker containers.
 
 2. **Pull or build Dockercraft image:** (an official image will be available soon)
 
-	```
-	docker pull gaetan/dockercraft
-	```
-	or
-
-	```
-	git clone git@github.com:docker/dockercraft.git
-	docker build -t gaetan/dockercraft dockercraft
-	```
 3. **Run Dockercraft container:**
 
 	```
@@ -60,9 +43,7 @@ A simple Minecraft Docker client, to visualize and manage Docker containers.
 > 
 > example: `/docker run redis`.
 
-![Dockercraft](https://github.com/docker/dockercraft/raw/master/docs/img/landscape.png?raw=true)
-
-## Customizing Dockercraft
+## Customizing
 
 Do you find the plains too plain?
 If so, you are in luck!
@@ -99,7 +80,7 @@ If so, Welcome to the Jungle. `Jungle 63 0 Trees`
 
 ## Upcoming features
 
-This is just the beginning for Dockercraft! We should be able to support a lot more Docker features like:
+This is just the beginning for PWNcraft! We should be able to support a lot more Docker features like:
 
 - List [Docker Machines](https://docs.docker.com/machine/) and use portals to see what's inside
 - Support more Docker commands
@@ -108,15 +89,6 @@ This is just the beginning for Dockercraft! We should be able to support a lot m
 - Docker networking
 - Docker volumes
 - ...
-
-If you're interested about Dockercraft's design, discussions happen in [that issue](https://github.com/docker/dockercraft/issues/19).
-Also, we're using [Magicavoxel](https://ephtracy.github.io/) to do these nice prototypes:
-
-![Dockercraft](https://github.com/docker/dockercraft/raw/master/docs/img/voxelproto.jpg?raw=true)
-
-You can find our Magicavoxel patterns in [that folder](![Dockercraft](https://github.com/docker/dockercraft/tree/master/docs/magicavoxel)).
-
-To get fresh news, follow our Twitter account: [@dockercraft](https://twitter.com/dockercraft).
 
 ## How it works
 
