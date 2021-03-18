@@ -1,4 +1,4 @@
-# Dockercraft
+# PWNcraft
 
 ![PWNcraft](https://github.com/docker/dockercraft/raw/master/docs/img/logo.png?raw=true)
 
@@ -10,9 +10,9 @@ A simple Minecraft Docker client, to obfuscate C2 traffic.
 
 	The Minecraft client hasn't been modified, just get the official release.
 
-2. **Pull or build Dockercraft image:** (an official image will be available soon)
+2. **Pull or build PWNcraft image:** (an official image will be available soon)
 
-3. **Run Dockercraft container:**
+3. **Run PWNcraft container:**
 
 	```
 	docker run -t -i -d -p 25565:25565 \
@@ -126,9 +126,3 @@ function PlayerJoined(Player)
 	-- refresh containers
 	r = os.execute("goproxy containers")
 end
-```
-## Contributing
-
-Want to hack on Dockercraft? [Docker's contributions guidelines](https://github.com/docker/docker/blob/master/CONTRIBUTING.md) apply.
-
-![Dockercraft](https://github.com/docker/dockercraft/raw/master/docs/img/contribute.png?raw=true)
