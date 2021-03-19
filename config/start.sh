@@ -23,10 +23,11 @@ if [ -n "$4" ]; then
     finishers="$4"
 fi
 
-sed -i "s/@BIOME@/${biome}/g;s/@GROUNDLEVEL@/${groundlevel}/g;s/@SEALEVEL@/${sealevel}/g;s/@FINISHERS@/${finishers}/g" /srv/world/world.ini
+sed -i "s/@BIOME@/${biome}/g;s/@GROUNDLEVEL@/${groundlevel}/g;s/@SEALEVEL@/${sealevel}/g;s/@FINISHERS@/${finishers}/g" /srv/cuberite/world/world.ini
 
 echo Starting Dockercraft
-cd /srv/Server
+cd /srv/cuberite/Server
 dockercraft &
 sleep 5
-/srv/Cuberite
+cd /srv/cuberite
+./Cuberite
